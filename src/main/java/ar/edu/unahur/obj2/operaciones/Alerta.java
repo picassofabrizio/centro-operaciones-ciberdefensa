@@ -1,9 +1,11 @@
 package ar.edu.unahur.obj2.operaciones;
 
-/**
- * Alerta
- */
+public class Alerta extends Alertas {
 
-public class Alerta {
+    public Alerta(Integer severidadBase, String codigoIdentificador, Double tiempoDeDeteccion, Integer IPOrigen) {
+        super(severidadBase, codigoIdentificador, tiempoDeDeteccion, IPOrigen);
+    }
 
+    
+    
 }
