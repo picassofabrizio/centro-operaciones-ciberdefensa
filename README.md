@@ -5,9 +5,9 @@
 
 ## **⚙️ Datos necesarios y obligatorios a completar.**
 
-* **APELLIDO, NOMBRE**:  
-* **COMISIÓN**:  
-* **DNI**:
+* **APELLIDO, NOMBRE**:  Picasso Fabrizio
+* **COMISIÓN**:  3
+* **DNI**: 47085663
 
 ## **📝 Consideraciones Iniciales y Criterio de Evaluación.**
 
