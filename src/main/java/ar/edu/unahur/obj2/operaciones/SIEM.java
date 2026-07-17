@@ -33,7 +33,7 @@ public class SIEM {
         }
     }
 
-    private void aplicarEnriquecimientoDeInteligencia(Alertas alerta) {
+    void aplicarEnriquecimientoDeInteligencia(Alertas alerta) {
         if (modo == "ModoForense") {
             IModulosDeInteligencia alertaEnriquecida = new HistoriaForense(new GeolocalizacionDeIP(alerta));
         }

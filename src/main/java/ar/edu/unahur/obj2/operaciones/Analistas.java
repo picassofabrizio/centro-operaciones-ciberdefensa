@@ -5,15 +5,27 @@ import java.util.ArrayList;
 import ar.edu.unahur.obj2.operaciones.criterios.ICriterioDeTriaje;
 
 public class Analistas {
-    private final String legajo;
+    private String legajo;
     private ICriterioDeTriaje criterioDeTriaje;
     private ArrayList<Alerta> HistorialDeAlertas;
 
-    public Analistas(String legajo, ICriterioDeTriaje criterioDeTriaje) {
-        this.legajo = legajo;
-        this.criterioDeTriaje = criterioDeTriaje;
+    public Analistas() {
         this.HistorialDeAlertas = new ArrayList<>();
     }
+
+    
+
+    public void setCriterioDeTriaje(ICriterioDeTriaje criterioDeTriaje) {
+        this.criterioDeTriaje = criterioDeTriaje;
+    }
+
+
+
+    public void setlegajo(String legajo) {
+        this.legajo = legajo;
+    }
+
+
 
     public void agregarAlerta(Alerta alerta) {
         HistorialDeAlertas.add(alerta);
